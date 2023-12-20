@@ -1,0 +1,19 @@
+.create-note-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.text-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content {
+  flex: 1;
+}
+
+.align-self-center {
+  align-self: center;
+}

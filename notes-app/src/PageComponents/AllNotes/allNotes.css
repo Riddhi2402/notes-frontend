@@ -1,0 +1,39 @@
+.all-notes-container {
+  background: #eceeef;
+  padding: 54px 200px;
+  min-height: 100vh;
+}
+
+.all-notes-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.notes-header-text {
+  font-size: 2rem;
+}
+
+.notes-list {
+  margin: 24px 0 0 0;
+}
+
+.loading-text{
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 992px) {
+  .all-notes-container {
+    padding: 54px 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .notes-header-text {
+    font-size: 1rem;
+  }
+
+  .all-notes-container {
+    padding: 5px 18px 25px;
+  }
+}

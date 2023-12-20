@@ -1,0 +1,22 @@
+.new-btn {
+    background: #579BC3;
+    border: none;
+    border-radius: 12px;
+    padding: 20px 25px;
+}
+
+.new-btn-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .new-btn-desktop {
+        display: none;
+    }
+
+    .new-btn-mobile {
+        display: block;
+        margin: 18px 0 0 auto;
+        
+    }
+}

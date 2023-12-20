@@ -1,0 +1,21 @@
+.notes-box {
+    background: #ffffff;
+    border-radius: 13px;
+    padding: 16px 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 16px;
+}
+
+.note-title {
+    font-size: 0.938rem;
+}
+
+.note-description {
+    font-size: 0.813rem;
+}
+
+.note-timestamp {
+    font-size: 0.625rem;
+}
